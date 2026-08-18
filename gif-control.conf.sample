@@ -1,0 +1,9 @@
+# Sample gif-control configuration
+# Copy to ~/.config/gif-control.conf and edit as needed
+
+# Minutes of idle time before auto-starting the background (1-1440)
+idle_minutes=120
+
+# Path to your GIF file (pick your own — not included in this repo)
+# Download a GIF or use one from: ~/.local/share/backgrounds/ or ~/Pictures/
+gif_path=/home/stephens-super-linux/Videos/linux back grounds /pegin code.gif

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Animated GIF Background
+Comment=Animated GIF wallpaper with control panel
+Exec=bash -c 'python3 "$HOME/.local/bin/gif-control.py"'
+Icon=application-display
+Type=Application
+Categories=Graphics;

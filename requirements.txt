@@ -1,0 +1,2 @@
+# System packages (install via apt):
+#   sudo apt install python3-gi gir1.2-gtk-3.0 mpv xwinwrap x11-xserver-utils
