@@ -14,7 +14,11 @@ gi.require_version("Gtk", "3.0")
 from gi.repository import GLib, Gtk, GdkPixbuf
 
 
-ANIME = os.path.expanduser("~/.local/bin/animebg.sh")
+ANIME = (
+    os.path.expanduser("~/.local/bin/animebg.sh")
+    if os.path.isfile(os.path.expanduser("~/.local/bin/animebg.sh"))
+    else "animebg.sh"
+)
 CONFIG = os.path.expanduser("~/.config/gif-control.conf")
 DEFAULT_MINUTES = 120
 
